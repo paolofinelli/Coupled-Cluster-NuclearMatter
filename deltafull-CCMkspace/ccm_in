@@ -1,0 +1,18 @@
+!Chiral order for Deltas(LO = 0,NLO=2,NNLO=3,N3LO=4) and cutoff
+3, 450
+! cE and cD 3nf parameters: 
+ 0.0170000000000000012, 0.790000000000000036
+! number of particles
+28
+! specify: pnm/snm, input type: density/kfermi 
+snm, density
+! specify boundary conditions (PBC/TABC/TABCsp) 
+PBC 
+! dens/kf, ntwist,  nmax
+0.165,1,2,1
+! specify cluster approximation: CCD, CCDT 
+CCD
+! tnf switch (T/F) and specify 3nf approximation: 0=tnf0b, 1=tnf1b, 2=tnf2b
+T, 2
+! 3nf cutoff(MeV),non-local reg. exp
+450, 3
